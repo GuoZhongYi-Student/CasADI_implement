@@ -10,12 +10,12 @@ CasADI部署主要分为三个步骤：
 
 ## 1.Windows系统Visual Studio 2019 IDE部署方案
 
-查看对应的README文件。
+[Windows系统Visual Studio 2019 IDE部署方案](/VisualStidio2019/README.md)
 
 ## 2.Ubuntu20.04.1系统交叉编译
 
-查看对应的README文件。
+[Ubuntu20.04.1系统交叉编译流程](/Ubuntu20.04/README.md)
 
-## 3.Vitis部署方案
+## 3.Vitis部署方案以及嵌入式实现方案
 
-查看对应的README文件。
+[Vitis部署方案以及嵌入式实现方案](/Vitis_implement/README.md)
