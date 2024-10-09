@@ -27,7 +27,7 @@ CasADI求解器是基于IPOPT软件进行优化求解，因此需要先下载IPO
     cmake -G "Visual Studio 16 2019" -A x64 -B build -DWITH_IPOPT=ON -DIPOPT_LIBRARIES:FILEPATH="IPOPT根目录/lib/ipopt.dll.lib" -DIPOPT_INCLUDE_DIRS:PATH="IPOPT根目录/include/coin-or"  -DCMAKE_INSTALL_PREFIX:PATH="casadi安装目录/casadi_install"
     cmake --build build --config Release
     cmake --install build
-其中**IPOPT根目录**要选择安装的IPOPT对应的文件夹路径，**casadi安装目录**需要指定casadi的安装位置，这里推荐使用绝对路径。
+其中**IPOPT根目录**要选择安装的IPOPT对应的文件夹路径，**casadi安装目录**需要指定casadi的安装位置，这里推荐使用绝对路径，**casadi安装目录/casadi_install**文件夹是指定casadi编译完成后生成文件的安装位置，需要自己创建一个。
 
 2.打开Visual Studio 2019对应的x64 Native Tools Command Prompt（一般在开始菜单栏可以找到），切换到CasADI源码根目录下，运行run.bat文件，等待编译完成。
 
