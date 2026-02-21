@@ -11,7 +11,7 @@
 ![系统的GLIBC版本](./Figure/GLIBC版本.png)
 
 登录赛灵思[Vitis说明文档网站](https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/Supported-Platforms)查看对应的系统支持版本以及GLIBC版本。系统支持版本自行查阅，GLIBC版本可以通过查看对应的编译工具链看到，如下图
-![Vitis的GLIBC版本](./Figure/VitisGLIBC.png)
+![Vitis的GLIBC版本](./Figure/VITISGLIBC.png)
 
 可以看到Vitis软件自带的交叉编译器GLIBC版本是2.34，大于ubuntu20.04的GLIBC版本，可以进行交叉编译。如果是以前的版本文档中不显示，可以在网上查，也可以安装好Vitis软件之后，进入到安装目录下找到 libc.so.6 文件。
 
